@@ -97,6 +97,7 @@ EOF;
             }
 
             $numUrl++;
+            sleep(rand(30,90));
         }
 
         $this->notifyResult($option['mail'], $option['nomailok'], $tuttoOk);
