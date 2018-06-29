@@ -243,7 +243,7 @@ EOF;
      */
     private function checkStructuredData($url, $whitelist)
     {
-        $this->line("Analyzing: $url ...");
+        $this->line("Analyzing: $url");
 
         $gtest = new GoogleMarkupHelper($this, $whitelist);
         $response = $gtest->checkUrl($url);
